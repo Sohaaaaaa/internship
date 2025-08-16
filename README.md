@@ -22,7 +22,7 @@ TaskManager/ │── pom.xml └── src/ └── main/ └── java/ �
 
 ---
 
-# 🚀 How to Run
+# How to Run
 
 1. *Clone the project*
    ```bash
@@ -50,7 +50,7 @@ http://localhost:8080
 
 ---
 
-📌 API Endpoints
+ API Endpoints
 
 Create Task
 
@@ -117,3 +117,6 @@ curl http://localhost:8080/tasks/1
 curl -X PUT http://localhost:8080/tasks/1 \
 -H "Content-Type: application/json" \
 -d '{"title":"Learn Spring Boot","description":"REST + Swagger","deadline":"2025-08-25","priority":"Medium","status":"Completed"}'
+
+# Delete
+curl -X DELETE http://localhost:8080/tasks/1

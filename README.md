@@ -22,7 +22,7 @@ TaskManager/ │── pom.xml └── src/ └── main/ └── java/ �
 
 ---
 
-# How to Run
+# 🚀 How to Run
 
 1. *Clone the project*
    ```bash
@@ -50,7 +50,7 @@ http://localhost:8080
 
 ---
 
- API Endpoints
+📌 API Endpoints
 
 Create Task
 
